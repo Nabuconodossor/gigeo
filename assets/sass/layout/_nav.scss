@@ -1,0 +1,21 @@
+// START PAGE | NAVIGATOR
+/*|- NAVIGATOR PAGE START -|*/
+
+.nav{
+    &__logo {
+        padding-left: 3rem;
+    }
+    &__text-logo {
+        font-family: $lexend;
+        font-size: 2.5rem;
+        font-weight: $medium;
+        &-up{
+            font-size: 1rem;
+            top: -1.5em;
+        }
+    }
+}
+.nav-link{
+    font-size: 2rem;
+    color: $coral-black !important;
+}
